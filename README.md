@@ -4,6 +4,12 @@ would like to build an agentic generative AI from scratch.
 
 will only use the basic watsonx.ai api.
 
+## Environments
+
+the lab will base on the [IBM watsonx.ai](http://watsonx.ai) and [IBM Granite 3 Model](https://www.ibm.com/new/ibm-granite-3-0-open-state-of-the-art-enterprise-models)
+
+please follow the instruction to create account and get the API_KEY.
+
 ## Agentic Patterns
 
 target to implement 4 agentic patterns
@@ -245,6 +251,3 @@ multi agent output
 >
 > In conclusion, the debate over whether we should pay higher taxes is complex and multifaceted. Both supporters and critics present valid arguments and concerns, and it is essential to consider the potential benefits and drawbacks of higher taxes when making decisions about fiscal policy. By engaging in a nuanced and balanced discussion, we can work towards a more equitable, sustainable, and prosperous society.
 
-## Environments
-
-the lab will base on the [IBM watsonx.ai](http://watsonx.ai) and [IBM Granite 3 Model](https://www.ibm.com/new/ibm-granite-3-0-open-state-of-the-art-enterprise-models)
