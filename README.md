@@ -14,9 +14,7 @@ it is about using review and revise to improve the generation outcome
 
 Sample Input
 
-```text
-plan a trip to jakarta for 3 days
-```
+> plan a trip to jakarta for 3 days
 
 Naive output
 
@@ -96,9 +94,7 @@ test case - external data (wikipedia)
 
 input
 
-```text
-how deep is Mariana Trench
-```
+> how deep is Mariana Trench
 
 naive output
 
@@ -106,52 +102,38 @@ naive output
 
 use tool output
 
-```markdown
-calling query_wikipedia({'topic': 'Mariana Trench'})...
-The Mariana Trench, located in the western Pacific Ocean, is the deepest oceanic trench on Earth. Its maximum known depth is 10,984 ± 25 meters (36,037 ± 82 feet; 6,006 ± 14 fathoms; 6.825 ± 0.016 miles). This depth is more than 2 kilometers (1.2 miles) farther from sea level than the peak of Mount Everest. The pressure at the bottom of the trench is 1,086 bar (15,750 psi), and the temperature ranges from 1 to 4 degrees Celsius (34 to 39 degrees Fahrenheit). One-celled organisms called monothalamea have been found at a record depth of 10.6 kilometers (35,000 feet; 6.6 miles) below the sea surface.
-```
+> calling query_wikipedia({'topic': 'Mariana Trench'})...
+> The Mariana Trench, located in the western Pacific Ocean, is the deepest oceanic trench on Earth. Its maximum known depth is 10,984 ± 25 meters (36,037 ± 82 feet; 6,006 ± 14 fathoms; 6.825 ± 0.016 miles). This depth is more than 2 kilometers (1.2 miles) farther from sea level than the peak of Mount Everest. The pressure at the bottom of the trench is 1,086 bar (15,750 psi), and the temperature ranges from 1 to 4 degrees Celsius (34 to 39 degrees Fahrenheit). One-celled organisms called monothalamea have been found at a record depth of 10.6 kilometers (35,000 feet; 6.6 miles) below the sea surface.
 
 test case - near time data source (stock data)
 
 input
 
-```text
-analysis the latest stock price of IBM
-```
+> analysis the latest stock price of IBM
 
 naive output
 
-```text
-As of my last update, I don't have real-time data or the ability to browse the internet. However, I can guide you on how to find the latest stock price of IBM. You can check financial websites like Yahoo Finance, Google Finance, or Bloomberg for the most recent stock prices. Please ensure you're using a reliable source and that the information is up-to-date.
-```
+> As of my last update, I don't have real-time data or the ability to browse the internet. However, I can guide you on how to find the latest stock price of IBM. You can check financial websites like Yahoo Finance, Google Finance, or Bloomberg for the most recent stock prices. Please ensure you're using a reliable source and that the information is up-to-date.
 
 use tool output
 
-```text
-calling get_stock_data({'ticker': 'IBM'})...
-Based on the provided knowledge, the latest stock price of IBM as of November 18, 2024, was $208.089996. This is the closing price for that day. The volume of shares traded on that day was 2658508. There were no dividends or stock splits reported for this period.
-```
+> calling get_stock_data({'ticker': 'IBM'})...
+> Based on the provided knowledge, the latest stock price of IBM as of November 18, 2024, was $208.089996. This is the closing price for that day. The volume of shares traded on that day was 2658508. There were no dividends or stock splits reported for this period.
 
 test case - real time data (world time)
 
 input
 
-```text
-when it is now in Sydney
-```
+> when it is now in Sydney
 
 naive output
 
-```text
-The current time in Sydney, Australia is [insert current time here]. Please note that Sydney observes Daylight Saving Time from early October to early April, during which the time zone is UTC+10:30. The rest of the year, it follows UTC+11:00.
-```
+> The current time in Sydney, Australia is [insert current time here]. Please note that Sydney observes Daylight Saving Time from early October to early April, during which the time zone is UTC+10:30. The rest of the year, it follows UTC+11:00.
 
 use tool output
 
-```text
-calling get_current_time({'location': 'Australia/Sydney'})...
-The current time in Sydney is 13:47:09 on November 19, 2024.
-```
+> calling get_current_time({'location': 'Australia/Sydney'})...
+> The current time in Sydney is 13:47:09 on November 19, 2024.
 
 ### 3) Multi Agent
 
