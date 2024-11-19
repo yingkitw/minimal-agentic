@@ -206,24 +206,6 @@ multi agent output
 
 it is about breakdown the goal into smaller pieces of task, that help to approach a big goal.
 
-## Test Cases
-
-### 1) 9.11 bigger than 9.8
-
-it show case LLM not good on math, so it is not a reliable approach on math question.
-
-### 2) how many R in straberry.
-
-it show case LLM not good on counting.
-
-### 3) how many prime number within 10000.
-
-you cant ride on LLM to do this kind of math works.
-
-### 4) when is the time now.
-
-it show case LLM not have the latest information of the world, so it need to employ other tools to get those information.
-
 ## Environments
 
 the lab will base on the [IBM watsonx.ai](http://watsonx.ai) and [IBM Granite 3 Model](https://www.ibm.com/new/ibm-granite-3-0-open-state-of-the-art-enterprise-models)
