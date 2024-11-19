@@ -80,7 +80,69 @@ General suggestions:
 - Lastly, respect local customs and traditions during your visit to ensure a pleasant and memorable experience.
 ```
 
-### 2) Use Tool
+### 2) Planning
+
+it is about breakdown the goal into smaller pieces of task, that help to approach a big goal.
+
+> plan a trip to goto Bangkok from Singapore
+
+plan:
+
+```json
+{
+    steps: [
+        "Understand the goal: The user wants to plan a trip from Singapore to Bangkok.",
+        "Understand the goal with common sense: This involves booking flights, accommodation, and planning activities.",
+        "Understand the status: No specific details are provided about the user's preferences or constraints.",
+        "List out what knowledge is needed: Information about flight schedules, accommodation options, travel costs, and popular attractions in Bangkok.",
+        "Leverage tool if possible: Use travel search engines and websites to find the best deals and options.",
+        "Break down complex tasks into simpler tasks: Research and book flights, research and book accommodation, research and plan activities."
+    ]
+}
+```
+
+> current status - "I already book the flight, and I have the visa and passport"
+
+next step:
+
+```json
+{
+    "steps": [
+        "Confirm the flight booking details for your trip from Singapore to Bangkok.",
+        "Check the requirements for your visa and passport to ensure they are valid for travel.",
+        "Research and book accommodation in Bangkok based on your preferences and budget.",
+        "Plan your activities in Bangkok by looking up popular attractions and creating an itinerary."
+    ],
+    "next_step": "Confirm the flight booking details",
+    "complete": false
+}
+```
+
+> current status - "already in Jakarta"
+
+next step:
+
+```json
+{
+    "steps": [],
+    "next_step": "Since the user is already in Jakarta, it seems there might be a misunderstanding. If the user is indeed in Jakarta, they would need to first return to Singapore before planning a trip to Bangkok. However, if the user is not in Jakarta and is currently in Singapore, then the next step would be to research and book flights to Bangkok.",
+    "complete": "no"
+}
+```
+
+> current status - "already in Bangkok"
+
+next step:
+
+```json
+{
+    "steps": [],
+    "next_step": "No further action needed as the user is already in Bangkok.",
+    "complete": true
+}
+```
+
+### 3) Use Tool
 
 it is about using tool to acquire external data and proceed operation to external system.
 
@@ -138,7 +200,7 @@ use tool output
 
 > The current time in Sydney is 13:47:09 on November 19, 2024.
 
-### 3) Multi Agent
+### 4) Multi Agent
 
 it is about to employ different personale on generation or understanding.
 
@@ -201,10 +263,6 @@ multi agent output
 > However, critics present further counterarguments and alternative perspectives. They argue that higher taxes may discourage businesses from expanding or hiring new employees, leading to slower economic growth and higher unemployment rates. Critics also believe that higher taxes on the wealthy may not significantly impact their work effort or investment and that higher taxes may not guarantee better outcomes due to potential government waste and mismanagement.
 >
 > In conclusion, the debate over whether we should pay higher taxes is complex and multifaceted. Both supporters and critics present valid arguments and concerns, and it is essential to consider the potential benefits and drawbacks of higher taxes when making decisions about fiscal policy. By engaging in a nuanced and balanced discussion, we can work towards a more equitable, sustainable, and prosperous society.
-
-### 4) Planning
-
-it is about breakdown the goal into smaller pieces of task, that help to approach a big goal.
 
 ## Environments
 
