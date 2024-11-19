@@ -103,6 +103,7 @@ naive output
 use tool output
 
 > calling query_wikipedia({'topic': 'Mariana Trench'})...
+
 > The Mariana Trench, located in the western Pacific Ocean, is the deepest oceanic trench on Earth. Its maximum known depth is 10,984 ± 25 meters (36,037 ± 82 feet; 6,006 ± 14 fathoms; 6.825 ± 0.016 miles). This depth is more than 2 kilometers (1.2 miles) farther from sea level than the peak of Mount Everest. The pressure at the bottom of the trench is 1,086 bar (15,750 psi), and the temperature ranges from 1 to 4 degrees Celsius (34 to 39 degrees Fahrenheit). One-celled organisms called monothalamea have been found at a record depth of 10.6 kilometers (35,000 feet; 6.6 miles) below the sea surface.
 
 test case - near time data source (stock data)
@@ -118,6 +119,7 @@ naive output
 use tool output
 
 > calling get_stock_data({'ticker': 'IBM'})...
+
 > Based on the provided knowledge, the latest stock price of IBM as of November 18, 2024, was $208.089996. This is the closing price for that day. The volume of shares traded on that day was 2658508. There were no dividends or stock splits reported for this period.
 
 test case - real time data (world time)
@@ -133,6 +135,7 @@ naive output
 use tool output
 
 > calling get_current_time({'location': 'Australia/Sydney'})...
+
 > The current time in Sydney is 13:47:09 on November 19, 2024.
 
 ### 3) Multi Agent
