@@ -84,63 +84,44 @@ General suggestions:
 
 it is about breakdown the goal into smaller pieces of task, that help to approach a big goal.
 
-> plan a trip to goto Bangkok from Singapore
+> get all prime number with 100
 
 plan:
 
-```json
-{
-    steps: [
-        "Understand the goal: The user wants to plan a trip from Singapore to Bangkok.",
-        "Understand the goal with common sense: This involves booking flights, accommodation, and planning activities.",
-        "Understand the status: No specific details are provided about the user's preferences or constraints.",
-        "List out what knowledge is needed: Information about flight schedules, accommodation options, travel costs, and popular attractions in Bangkok.",
-        "Leverage tool if possible: Use travel search engines and websites to find the best deals and options.",
-        "Break down complex tasks into simpler tasks: Research and book flights, research and book accommodation, research and plan activities."
-    ]
-}
-```
+> 1. understand the concept of prime numbers.
+> 2. list out all numbers from 1 to 100.
+> 3. identify which numbers are prime.
+> 4. list out all prime numbers.
 
-> current status - "I already book the flight, and I have the visa and passport"
+> current status - "I know what prime number is"
 
 next step:
 
-```json
-{
-    "steps": [
-        "Confirm the flight booking details for your trip from Singapore to Bangkok.",
-        "Check the requirements for your visa and passport to ensure they are valid for travel.",
-        "Research and book accommodation in Bangkok based on your preferences and budget.",
-        "Plan your activities in Bangkok by looking up popular attractions and creating an itinerary."
-    ],
-    "next_step": "Confirm the flight booking details",
-    "complete": false
-}
-```
+> 1. Understand the concept of prime numbers. [[Completed]]
+> 2. List out all numbers from 1 to 100.
+> 3. Identify which numbers are prime.
+> 4. List out all prime numbers.
+> Next step: List out all prime numbers.
 
-> current status - "already in Jakarta"
+> current status - "got all number from 1 to 100"
 
 next step:
 
-```json
-{
-    "steps": [],
-    "next_step": "Since the user is already in Jakarta, it seems there might be a misunderstanding. If the user is indeed in Jakarta, they would need to first return to Singapore before planning a trip to Bangkok. However, if the user is not in Jakarta and is currently in Singapore, then the next step would be to research and book flights to Bangkok.",
-    "complete": "no"
-}
-```
+> 1. understand the concept of prime numbers. [completed]
+> 2. list out all numbers from 1 to 100. [completed]
+> 3. identify which numbers are prime.
+> 4. list out all prime numbers.
+> next step: Identify which numbers from 1 to 100 are prime.
 
-> current status - "already in Bangkok"
+> current status - "I got the prime numbers"
 
 next step:
 
-```json
-{
-    "steps": [],
-    "next_step": "No further action needed as the user is already in Bangkok.",
-    "complete": true
-}
-```
+> 1. Understand the concept of prime numbers. [Completed]
+> 2. List out all numbers from 1 to 100. [Completed]
+> 3. Identify which numbers are prime. [Completed]
+> 4. List out all prime numbers. [Completed]
+> Since all steps have been completed, the process is now complete.
 
 ### 3) Use Tool
 
