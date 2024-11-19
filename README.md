@@ -4,9 +4,9 @@ would like to build an agentic generative AI from scratch.
 
 will only use the basic watsonx.ai api.
 
-## Pattern
+## Agentic Patterns
 
-target to implement 4 pattern
+target to implement 4 agentic patterns
 
 ### 1) Reflection
 
@@ -148,25 +148,23 @@ input
 
 naive output
 
-```text
-The topic of whether or not we should pay higher taxes is a complex one, with valid arguments on both sides. Here are some points to consider:
-
-1. **Public Services and Infrastructure**: Higher taxes can fund public services and infrastructure that benefit society as a whole, such as education, healthcare, and transportation systems.
-
-2. **Economic Inequality**: Critics argue that higher taxes disproportionately affect lower-income individuals, exacerbating economic inequality.
-
-3. **Government Efficiency**: Some people believe that higher taxes could lead to more efficient government spending and reduced waste.
-
-4. **Economic Growth**: Others argue that high tax rates can discourage investment and entrepreneurship, potentially slowing economic growth.
-
-5. **Social Safety Nets**: Higher taxes can help fund social safety nets, providing support for those in need.
-
-6. **Fiscal Responsibility**: Some view higher taxes as a way to ensure fiscal responsibility and prevent excessive government debt.
-
-7. **Tax Fairness**: There's also the issue of tax fairness - should those who earn more pay a larger share of their income in taxes?
-
-Ultimately, the decision to pay higher taxes depends on one's perspective on these issues and their priorities for society. It's a topic that often sparks heated debate.
-```
+> The topic of whether or not we should pay higher taxes is a complex one, with valid arguments on both sides. Here are some points to consider:
+>
+> 1. **Public Services and Infrastructure**: Higher taxes can fund public services and infrastructure that benefit society as a whole, such as education, healthcare, and transportation systems.
+>
+> 2. **Economic Inequality**: Critics argue that higher taxes disproportionately affect lower-income individuals, exacerbating economic inequality.
+>
+> 3. **Government Efficiency**: Some people believe that higher taxes could lead to more efficient government spending and reduced waste.
+>
+> 4. **Economic Growth**: Others argue that high tax rates can discourage investment and entrepreneurship, potentially slowing economic growth.
+>
+> 5. **Social Safety Nets**: Higher taxes can help fund social safety nets, providing support for those in need.
+>
+> 6. **Fiscal Responsibility**: Some view higher taxes as a way to ensure fiscal responsibility and prevent excessive government debt.
+>
+> 7. **Tax Fairness**: There's also the issue of tax fairness - should those who earn more pay a larger share of their income in taxes?
+>
+> Ultimately, the decision to pay higher taxes depends on one's perspective on these issues and their priorities for society. It's a topic that often sparks heated debate.
 
 some setup for the agents
 
@@ -187,24 +185,22 @@ cons.next_agent = pros
 
 multi agent output
 
-```markdown
-turn # 1 - role: supporter
-turn # 2 - role: critic
-turn # 3 - role: supporter
-turn # 4 - role: critic
-
-The task is to discuss the topic "Should we pay higher taxes?" and provide a summary of the arguments presented by both supporters and critics.
-
-Supporters argue that higher taxes can lead to improved public services such as education, healthcare, and infrastructure, which can benefit society as a whole. They also believe that higher taxes can reduce income inequality, promote environmental sustainability, and provide necessary funds for social safety nets. Supporters argue that these benefits outweigh the potential drawbacks of higher taxes, such as economic burden and disincentive for work and investment.
-
-Critics, on the other hand, present several counterarguments against higher taxes. They argue that higher taxes can place a significant financial burden on individuals and businesses, potentially stifling economic growth and investment. Critics also believe that higher taxes may discourage people from working harder or investing in their businesses, as they keep a smaller portion of their earnings. Additionally, critics worry about tax evasion and avoidance, inefficient government spending, and the potential for alternative solutions to address societal issues.
-
-In response to the critics' arguments, supporters present rebuttals and alternative perspectives. They argue that the long-term benefits of higher taxes outweigh the short-term costs and that progressive tax systems can help reduce the incentive for tax evasion. Supporters also believe that higher taxes can provide the necessary funds to invest in public services and infrastructure, which can lead to more effective and efficient use of resources.
-
-However, critics present further counterarguments and alternative perspectives. They argue that higher taxes may discourage businesses from expanding or hiring new employees, leading to slower economic growth and higher unemployment rates. Critics also believe that higher taxes on the wealthy may not significantly impact their work effort or investment and that higher taxes may not guarantee better outcomes due to potential government waste and mismanagement.
-
-In conclusion, the debate over whether we should pay higher taxes is complex and multifaceted. Both supporters and critics present valid arguments and concerns, and it is essential to consider the potential benefits and drawbacks of higher taxes when making decisions about fiscal policy. By engaging in a nuanced and balanced discussion, we can work towards a more equitable, sustainable, and prosperous society.
-```
+> turn # 1 - role: supporter
+> turn # 2 - role: critic
+> turn # 3 - role: supporter
+> turn # 4 - role: critic
+>
+> The task is to discuss the topic "Should we pay higher taxes?" and provide a summary of the arguments presented by both supporters and critics.
+>
+> Supporters argue that higher taxes can lead to improved public services such as education, healthcare, and infrastructure, which can benefit society as a whole. They also believe that higher taxes can reduce income inequality, promote environmental sustainability, and provide necessary funds for social safety nets. Supporters argue that these benefits outweigh the potential drawbacks of higher taxes, such as economic burden and disincentive for work and investment.
+>
+> Critics, on the other hand, present several counterarguments against higher taxes. They argue that higher taxes can place a significant financial burden on individuals and businesses, potentially stifling economic growth and investment. Critics also believe that higher taxes may discourage people from working harder or investing in their businesses, as they keep a smaller portion of their earnings. Additionally, critics worry about tax evasion and avoidance, inefficient government spending, and the potential for alternative solutions to address societal issues.
+>
+> In response to the critics' arguments, supporters present rebuttals and alternative perspectives. They argue that the long-term benefits of higher taxes outweigh the short-term costs and that progressive tax systems can help reduce the incentive for tax evasion. Supporters also believe that higher taxes can provide the necessary funds to invest in public services and infrastructure, which can lead to more effective and efficient use of resources.
+>
+> However, critics present further counterarguments and alternative perspectives. They argue that higher taxes may discourage businesses from expanding or hiring new employees, leading to slower economic growth and higher unemployment rates. Critics also believe that higher taxes on the wealthy may not significantly impact their work effort or investment and that higher taxes may not guarantee better outcomes due to potential government waste and mismanagement.
+>
+> In conclusion, the debate over whether we should pay higher taxes is complex and multifaceted. Both supporters and critics present valid arguments and concerns, and it is essential to consider the potential benefits and drawbacks of higher taxes when making decisions about fiscal policy. By engaging in a nuanced and balanced discussion, we can work towards a more equitable, sustainable, and prosperous society.
 
 ### 4) Planning
 
