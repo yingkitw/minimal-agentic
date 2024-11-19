@@ -102,13 +102,11 @@ how deep is Mariana Trench
 
 naive output
 
-```text
-The Mariana Trench, located in the western Pacific Ocean, is approximately 36,070 feet (10,994 meters) deep at its deepest point, known as the Challenger Deep. This makes it the deepest part of the world's oceans.
-```
+> The Mariana Trench, located in the western Pacific Ocean, is approximately 36,070 feet (10,994 meters) deep at its deepest point, known as the Challenger Deep. This makes it the deepest part of the world's oceans.
 
 use tool output
 
-```text
+```markdown
 calling query_wikipedia({'topic': 'Mariana Trench'})...
 The Mariana Trench, located in the western Pacific Ocean, is the deepest oceanic trench on Earth. Its maximum known depth is 10,984 ± 25 meters (36,037 ± 82 feet; 6,006 ± 14 fathoms; 6.825 ± 0.016 miles). This depth is more than 2 kilometers (1.2 miles) farther from sea level than the peak of Mount Everest. The pressure at the bottom of the trench is 1,086 bar (15,750 psi), and the temperature ranges from 1 to 4 degrees Celsius (34 to 39 degrees Fahrenheit). One-celled organisms called monothalamea have been found at a record depth of 10.6 kilometers (35,000 feet; 6.6 miles) below the sea surface.
 ```
