@@ -1,4 +1,4 @@
-# minimal-agentic
+# minimalist-agentic
 
 would like to build an agentic generative AI from scratch.
 
